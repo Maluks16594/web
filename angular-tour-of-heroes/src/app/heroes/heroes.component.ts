@@ -29,15 +29,14 @@ this.selectedHero = hero;
 this.messageService.add('HeroesComponent: Selected hero id=${hero.id}')
 
 }
-  
+
   hero: Hero={
   id: 1,
   name: 'Windstorm'
-  
+
 };
 
 }
 function getHeroes() {
   throw new Error('Function not implemented.');
 }
-
